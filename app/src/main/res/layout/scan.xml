@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+This is part of "QRDroidServices", by DroidLa. If you're creating an Android app
+which uses one or more services provided by "QR Droid", you can use this code for
+free, and modify it as you need, for personal and commercial use.
+  
+Any other use of this code is forbidden.
+-->
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="@mipmap/logo">
+
+	<Button
+		android:id="@+id/button_scan"
+		android:layout_width="210dp"
+		android:layout_height="wrap_content"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentRight="true"
+		android:layout_marginStart="194dp"
+		android:layout_marginLeft="194dp"
+		android:layout_marginTop="31dp"
+		android:layout_marginEnd="5dp"
+		android:layout_marginRight="7dp"
+		android:layout_marginBottom="5dp"
+		android:background="@drawable/btnqr"
+		android:text="escanea qr"
+		android:textColor="@android:color/holo_red_dark" />
+
+	<Spinner
+		android:id="@+id/spin_complete"
+		android:visibility="invisible"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true"
+		android:layout_margin="5dp"
+		/>
+
+	<EditText
+		android:id="@+id/result"
+		android:editable="false"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/spin_complete"
+		android:layout_marginTop="15dp"
+		android:visibility="gone"
+		/>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,2 @@
+rootProject.name='CodigoQR'
+include ':app'
